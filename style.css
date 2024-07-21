@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button, select {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.array-bar {
+    margin: 0 2px;
+    background-color: #3498db;
+    transition: background-color 0.2s;
+}
+
+.array-bar.sorted {
+    background-color: #2ecc71;
+}
